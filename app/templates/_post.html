@@ -1,0 +1,9 @@
+<!--Sub-template that just renders one post
+    Reference by user.html and index.html-->
+
+<table>
+    <tr valign="top">
+        <td><img src="{{ post.author.avatar(36) }}"></td>
+        <td>{{ post.author.username }} says:<br>{{ post.body }}</td>
+    </tr>
+</table>
